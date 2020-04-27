@@ -33,7 +33,7 @@ public class Topic_01_Check_ENV {
 	public void TC_02_ValidatePageTitle() {
 		// Login Page title update name
 		String loginPageTitle = driver.getTitle();
-		Assert.assertEquals(loginPageTitle, "Guru9999 Bank Home Page");
+		Assert.assertEquals(loginPageTitle, "Update Push Bank Home Page");
 	}
 
 	@Test
