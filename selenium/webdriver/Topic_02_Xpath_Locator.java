@@ -22,11 +22,7 @@ public class Topic_02_Xpath_Locator {
 		driver.get("http://live.demoguru99.com/index.php/customer/account/login/");
 	}
 	
-	@Test
-    public void TC_01(){
-		WebElement createaccount = driver.findElement(By.xpath(".//*[@id='login-form']/div/div[1]/div[2]/a"));
-		createaccount.click();
-	}
+	
 		
 	
 	
